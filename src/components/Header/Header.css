@@ -1,0 +1,63 @@
+.Header .header {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-content: flex-start;
+    margin-bottom: 85px;
+}
+
+.Header .like__burger_open {
+    display: none;
+    background: url("../../img/burger.svg") no-repeat left center;
+    padding-left: 40px;
+}
+
+/* MSI 2020 */
+
+.Header  .logo {
+    width: 87px;
+    height: 28px;
+
+    font-weight: bold;
+    font-size: 20px;
+    line-height: 28px;
+    /* identical to box height, or 140% */
+}
+
+/* Hey! */
+
+.Header h2 {
+    width: 680px;
+    height: 44px;
+
+    font-weight: bold;
+    font-size: 32px;
+    line-height: 44px;
+    /* identical to box height, or 137% */
+
+
+    color: #333333;
+}
+
+/* Let’s try to find a joke for you: */
+
+.Header  h1.intro-title {
+    width: auto;
+    height: 44px;
+    margin-bottom: 43px;
+
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 44px;
+    /* identical to box height, or 183% */
+
+
+    color: #333333;
+}
+
+
+@media screen and (max-width: 960px) {
+    .Header .like__burger_open {
+        display: block;
+    }
+}

@@ -1,0 +1,41 @@
+.Favorite {
+    position: relative;
+    width: 30%;
+
+    background: #F8F8F8;
+
+    order: 0;
+    flex: 1 1 auto;
+    align-self: auto;
+}
+
+.Favorite .jokes-wrapper {
+    max-width: 80%;
+    margin: 40px auto;
+}
+
+
+@media screen and (max-width: 960px) {
+    .Favorite {
+        overflow: scroll;
+        max-height: 100%;
+        position: fixed;
+        top: 0;
+        right: 0;
+        width: 55%;
+        height: 100%;
+        z-index: 999;
+        transform: translateX(100%);
+        transition: .2s all linear;
+    }
+
+    .Favorite__active{
+        transform: translateX(0);
+    }
+}
+
+@media screen and (max-width: 530px) {
+    .Favorite {
+        width: 100%;
+    }
+}

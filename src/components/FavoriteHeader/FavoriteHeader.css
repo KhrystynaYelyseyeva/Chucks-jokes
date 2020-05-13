@@ -1,0 +1,33 @@
+.FavoriteHeader  {
+    margin-bottom: 20px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-content: flex-start;
+}
+
+.FavoriteHeader .like__burger_close{
+    display: none;
+    background: url("../../img/burger2.svg") no-repeat left center;
+    padding-left: 40px;
+}
+
+.FavoriteHeader .favorite {
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 28px;
+    /* identical to box height, or 140% */
+
+
+    color: #ABABAB;
+}
+
+@media screen and (max-width: 960px) {
+    .FavoriteHeader .favorite-title {
+        display: none;
+    }
+    .FavoriteHeader .like__burger_close{
+        display: block;
+        margin-left: auto;
+    }
+}

@@ -1,0 +1,52 @@
+.RadioButton {
+    display: block;
+    position: relative;
+    padding-left: 35px;
+    margin-bottom: 10px;
+    cursor: pointer;
+    font-weight: normal;
+    line-height: 26px;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}
+
+.RadioButton input[type="radio"] {
+    position: absolute;
+    opacity: 0;
+    cursor: pointer;
+    display: none;
+}
+
+.RadioButton span {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 20px;
+    height: 20px;
+    border: 2px solid #ABABAB;
+    border-radius: 50%;
+}
+
+.RadioButton input[type="radio"]:hover ~ span {
+    border: 2px solid #333333;
+    transition: 300ms ease-in-out 0s;
+}
+
+.RadioButton span:after {
+    content: "";
+    width: 10px;
+    height: 10px;
+    background: #333333;
+    border-radius: 50%;
+    position: absolute;
+    display: block;
+    transform: translate(25%, 25%) scale(0);
+    transition: 300ms ease-in-out 0s;
+}
+
+.RadioButton input[type="radio"]:checked ~ span:after {
+    transform: translate(25%, 25%) scale(1);
+    display: block;
+}
