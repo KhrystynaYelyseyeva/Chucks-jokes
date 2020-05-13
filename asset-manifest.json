@@ -1,0 +1,28 @@
+{
+  "files": {
+    "main.css": "/Chucks-jokes/static/css/main.f1d9fe7c.chunk.css",
+    "main.js": "/Chucks-jokes/static/js/main.6f045cd2.chunk.js",
+    "main.js.map": "/Chucks-jokes/static/js/main.6f045cd2.chunk.js.map",
+    "runtime-main.js": "/Chucks-jokes/static/js/runtime-main.77beb5c6.js",
+    "runtime-main.js.map": "/Chucks-jokes/static/js/runtime-main.77beb5c6.js.map",
+    "static/js/2.453daa59.chunk.js": "/Chucks-jokes/static/js/2.453daa59.chunk.js",
+    "static/js/2.453daa59.chunk.js.map": "/Chucks-jokes/static/js/2.453daa59.chunk.js.map",
+    "index.html": "/Chucks-jokes/index.html",
+    "precache-manifest.08edc3e0e01eeee59b3d374a80bf677a.js": "/Chucks-jokes/precache-manifest.08edc3e0e01eeee59b3d374a80bf677a.js",
+    "service-worker.js": "/Chucks-jokes/service-worker.js",
+    "static/css/main.f1d9fe7c.chunk.css.map": "/Chucks-jokes/static/css/main.f1d9fe7c.chunk.css.map",
+    "static/js/2.453daa59.chunk.js.LICENSE.txt": "/Chucks-jokes/static/js/2.453daa59.chunk.js.LICENSE.txt",
+    "static/media/Vector.svg": "/Chucks-jokes/static/media/Vector.e977fb9e.svg",
+    "static/media/Header.css": "/Chucks-jokes/static/media/burger.358f75fe.svg",
+    "static/media/FavoriteHeader.css": "/Chucks-jokes/static/media/burger2.dbd9017e.svg",
+    "static/media/heart.svg": "/Chucks-jokes/static/media/heart.0865c832.svg",
+    "static/media/FavoriteJoke.css": "/Chucks-jokes/static/media/link.f8a998d1.svg",
+    "static/media/index.css": "/Chucks-jokes/static/media/roboto-v20-latin-regular.60fa3c06.woff"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.77beb5c6.js",
+    "static/js/2.453daa59.chunk.js",
+    "static/css/main.f1d9fe7c.chunk.css",
+    "static/js/main.6f045cd2.chunk.js"
+  ]
+}
